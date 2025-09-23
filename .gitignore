@@ -1,19 +1,1 @@
-*.iml
-.gradle
-/local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
 .DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
-local.properties
-
-# Keep these build files in git to demonstrate the issue with the generated code
-!/app/build/generated/ksp/debug/kotlin/com/duchastel/simon/circuitminimalrepro/CounterPresenter*
-!/app/build/generated/ksp/debug/kotlin/com/duchastel/simon/circuitminimalrepro/CounterUi*
