@@ -10,6 +10,6 @@ This repository demonstrates a minimal reproduction of a Circuit codegen issue w
 
 ## Reproduction Steps
 
-1. Clone this repository and navigate into `fails-with-k2`
+1. Clone this repository
 2. Run `./gradlew assembleDebug`
 3. Observe the compilation error in the generated `CounterPresenterFactory.kt`
