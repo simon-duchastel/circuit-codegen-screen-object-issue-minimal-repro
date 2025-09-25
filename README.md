@@ -5,8 +5,8 @@ This repository demonstrates a minimal reproduction of a Circuit codegen issue w
 ## Error Details
 
 - **Build Error:** `e: file:///path/to/CounterPresenterFactory.kt:17:46 Argument type mismatch: actual type is 'Screen', but 'CounterScreen' was expected.`
-- **Generated Code:** [CounterPresenterFactory.kt](fails-with-k2/app/build/generated/ksp/debug/kotlin/com/duchastel/simon/circuitminimalrepro/CounterPresenterFactory.kt#L17)
-- **Presenter:** [CounterPresenter](fails-with-k2/app/src/main/java/com/duchastel/simon/circuitminimalrepro/Counter.kt#L33)
+- **Generated Code:** [CounterPresenterFactory.kt](app/build/generated/ksp/debug/kotlin/com/duchastel/simon/circuitminimalrepro/CounterPresenterFactory.kt#L17)
+- **Presenter:** [CounterPresenter](app/src/main/java/com/duchastel/simon/circuitminimalrepro/Counter.kt#L33)
 
 ## Reproduction Steps
 
